@@ -85,19 +85,19 @@
 
 
 .container .secondary_header ul {
-	margin-top: 0%;
-	margin-right: 50px;
-	margin-bottom: 0px;
+	margin-top: 0.2%;
+	margin-right: auto;
+	margin-bottom: 0.5%;
 	margin-left: auto;
-	padding-top: 0px;
-	padding-right: 0px;
+	padding-top: auto;
+	padding-right: auto;
 	padding-bottom: 15px;
-	padding-left: 0px;
+	padding-left: auto;
 	width: 100%;
 }
 .menu{
 	list-style: none;
-	float: left;
+	float:left;
 	margin-top: 0px;
 	font-family: "Source Sans Pro";
 	font-weight:100;
@@ -140,7 +140,7 @@
 }
 .left_article {
 	background-color: #FFFFFF;
-	width: 60%;
+	width: 58%;
 	float: left;
 	font-family: "Source Sans Pro";
 	color: #343434;
@@ -167,7 +167,9 @@
 	color: #B3B3B3;
 }
 .right_article {
-	width: 40%;
+	width: 42%;
+	height: auto;
+	height: auto;
 	float: left;
 	background-color: #F6F6F6;
 }
@@ -206,12 +208,9 @@
 .footer {
 	background-color: #717070;
 }
-}
 .placeholder {
-
 	width: 100%;
-	padding-top: 30px;
-
+	padding-top: 10px;
 	padding-bottom: 30px;
 	height: 100%;
 }
