@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .container {
 	background-color: #FFFFFF;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-width: 0px;
@@ -12,11 +12,11 @@
 }
 
 .row {
-	width: 100%;
+	width: 90%;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-left: 5%;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -51,25 +51,39 @@
 	color: #01B2D1;
 }
 .primary_header {
-	width: 100%;
-	background-color: #800000;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	clear: left;
-	border-bottom: 2px solid #2C9AB7;
-	position:sticky;
+
+	background-image: url("../images/manga-anime-games-1950769-wallhere.com.jpg");
+ 	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:  column;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .secondary_header {
 	width: 100%;
-	padding-top: 30px;
+	padding-top: px;
 	padding-bottom: 30px;
 	background-color: #B3B3B3;
-	clear: left;
 	text-decoration: none;
     font-weight: bold;
-position: sticky;
-	
+	position: fixed;
+    z-index: 2;
 }
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #e9ecef;
+	letter-spacing: 20px;
+
+}
+
+
 .container .secondary_header ul {
 	margin-top: 0%;
 	margin-right: 50px;
@@ -192,13 +206,6 @@ position: sticky;
 .footer {
 	background-color: #717070;
 }
-.title {
-	font-weight: bold;
-	font-style: normal;
-	font-family: "Source Sans Pro";
-	text-align: center;
-	color: #ffb6c1;
-	letter-spacing: 2px;
 }
 .placeholder {
 
