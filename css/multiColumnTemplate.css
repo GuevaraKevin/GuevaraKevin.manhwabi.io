@@ -10,6 +10,7 @@
 	padding-right: 0px; 
 	padding-bottom: 0px;
 }
+
 .row {
 	width: 100%;
 	margin-top: 0px;
@@ -51,11 +52,12 @@
 }
 .primary_header {
 	width: 100%;
-	background-color: #52bad5;
+	background-color: #800000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	clear: left;
 	border-bottom: 2px solid #2C9AB7;
+	position:sticky;
 }
 .secondary_header {
 	width: 100%;
@@ -65,7 +67,7 @@
 	clear: left;
 	text-decoration: none;
     font-weight: bold;
-
+position: sticky;
 	
 }
 .container .secondary_header ul {
@@ -195,7 +197,7 @@
 	font-style: normal;
 	font-family: "Source Sans Pro";
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffb6c1;
 	letter-spacing: 2px;
 }
 .placeholder {
